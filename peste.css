@@ -1,0 +1,10 @@
+:root{
+    --branco: #ffffff;
+    --cinza: #c0c0c0;
+    --roxo: rgb(54, 0, 109);
+    --negro: #00030C;
+}
+
+body{
+    background-color: var(--negro);
+}
