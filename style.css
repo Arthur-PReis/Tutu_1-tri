@@ -31,7 +31,7 @@ h1{
 }
 
 .main{
-    background-image: url("img/Jogos.png");
+    background-image: url("Jogos.png");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: contain;
