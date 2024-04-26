@@ -103,12 +103,13 @@ h3{
 }
 
 .bloodb_txt{
+    text-align: center;
     margin-left: 2.5em;
     width: 1800px;
 }
 
 .recuo{
-    text-indent: 1.5em;
+    text-indent: 2.5em;
 }
 
 hr{
