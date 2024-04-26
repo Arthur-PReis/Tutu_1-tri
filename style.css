@@ -1,6 +1,6 @@
 :root{
     --branco: #ffffff;
-    --cinza: #2c2c2c;
+    --cinza: #474747;
     --roxo: rgb(54, 0, 109);
     --negro: #000000;
     --Evermelho: #390000;
@@ -72,27 +72,23 @@ h1{
 }
 
 .fromsof{
-    text-align: left;
-    margin-left: 10px;
-    margin-right: 500px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
     margin-bottom: 10px;
 }
 
 h2{
+    font-size: 30px;
     text-align: center;
-    margin-top: 2.5em;
-    margin-bottom: 2.5em;
-}
-
-.fromsof{
-    text-align: center;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-top: 60px;
+    margin-bottom: 10px;
 }
 
 h3{
-    margin-top: 5em;
-    margin-bottom: 2.5em;
+    font-size: 30px;
+    margin-top: 60px;
+    font-weight: bolder;
     text-align: center;
 }
 
@@ -114,4 +110,24 @@ h3{
 
 hr{
     border-color: var(--cinza);
+}
+
+.butão:hover 
+
+{ background-color: var(--Evermelho); 
+
+transition: 0.5s;
+
+opacity: 0.7;
+
+}
+
+.butão2:hover 
+
+{ background-color: var(--cinza); 
+
+transition: 0.5s;
+
+opacity: 0.7;
+
 }
