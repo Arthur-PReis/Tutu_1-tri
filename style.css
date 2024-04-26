@@ -1,6 +1,6 @@
 :root{
     --branco: #ffffff;
-    --cinza: #a0a0a0;
+    --cinza: #2c2c2c;
     --roxo: rgb(54, 0, 109);
     --negro: #000000;
     --Evermelho: #390000;
@@ -78,17 +78,39 @@ h1{
     margin-bottom: 10px;
 }
 
-.blob{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
+h2{
+    text-align: center;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+.fromsof{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+h3{
+    margin-top: 5em;
+    margin-bottom: 2.5em;
     text-align: center;
 }
 
-h2{
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 510px;
-    margin-bottom: 10px;
+.div2{
+    align-items: center;
+    margin: 0 8em;
+    display: flex;
+}
+
+.bloodb_txt{
+    margin-left: 2.5em;
+    width: 1800px;
+}
+
+.recuo{
+    text-indent: 1.5em;
+}
+
+hr{
+    border-color: var(--cinza);
 }
