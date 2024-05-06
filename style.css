@@ -85,20 +85,20 @@ h2{
     margin-bottom: 10px;
 }
 
-h3{
+.maintitle{
     font-size: 30px;
     margin-top: 60px;
     font-weight: bolder;
     text-align: center;
 }
 
-.div2{
+.format{
     align-items: center;
     margin: 0 8em;
     display: flex;
 }
 
-.bloodb_txt{
+.txt{
     text-align: center;
     margin-left: 2.5em;
     width: 1800px;
@@ -112,22 +112,18 @@ hr{
     border-color: var(--cinza);
 }
 
-.butão:hover 
-
-{ background-color: var(--Evermelho); 
-
+.butão:hover{ 
+background-color: var(--Evermelho); 
 transition: 0.5s;
-
 opacity: 0.7;
-
 }
 
-.butão2:hover 
-
-{ background-color: var(--cinza); 
-
+.butão2:hover{ 
+background-color: #39000085; 
 transition: 0.5s;
-
 opacity: 0.7;
+}
 
+.fim{
+    margin-bottom: 60px;
 }
