@@ -43,6 +43,8 @@ h1{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
 }
 
 .butão{
@@ -136,4 +138,22 @@ opacity: 0.7;
     margin: 0 auto;
     margin-top: 60px;
     display: block;
+}
+
+.acessos{
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 10px;
+}
+
+.Logo_Footer{
+    width: 250px;
+    height: 97px;
+}
+
+.FooterTxt{
+    font-size: 12px;
+    color: var(--cinza);
+    text-align: right;
 }
